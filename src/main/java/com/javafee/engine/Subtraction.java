@@ -1,4 +1,4 @@
 package com.javafee.engine;
 
-public class Subtraction {
+public class Subtraction extends Calculation {
 }

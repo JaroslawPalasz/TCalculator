@@ -1,4 +1,4 @@
-package com.javafee.engine;
+package com.javafee.kengine;
 
-public class Multiplication  {
+public class Multiplication {
 }
