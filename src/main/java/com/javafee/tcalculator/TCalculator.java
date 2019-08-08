@@ -1,9 +1,9 @@
 package com.javafee.tcalculator;
 
-import java.util.Scanner;
-
 import com.javafee.engine.Addition;
 import com.javafee.engine.Calculation;
+
+import java.util.Scanner;
 
 public class TCalculator {
 	public static void main(String[] args) {
@@ -21,9 +21,11 @@ public class TCalculator {
 		String thirdInput = input.next();
 
 		com.javafee.kengine.Calculation calculation = new com.javafee.kengine.Calculation();
+		System.out.println(calculation.calculate('-', Double.valueOf(firstInput), Double.valueOf(secondInput), Double.valueOf(thirdInput)));
+		System.out.println(calculation.calculate('*', Double.valueOf(firstInput), Double.valueOf(secondInput), Double.valueOf(thirdInput)));
+		System.out.println(calculation.calculate('/', Double.valueOf(firstInput), Double.valueOf(secondInput), Double.valueOf(thirdInput)));
 		System.out.println(calculation.calculate('+', Double.valueOf(firstInput), Double.valueOf(secondInput), Double.valueOf(thirdInput)));
 		//		System.out.println(calculation.calculate(2.0, 4.0, '*'));
-		//		System.out.println(calculation.calculate(2.0, 4.0, '-'));
 		//		System.out.println(calculation.calculate(2.0, 0.0, '/'));
 	}
 }

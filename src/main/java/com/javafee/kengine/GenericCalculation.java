@@ -6,4 +6,6 @@ public interface GenericCalculation {
 	Double calculate(Double... variables);
 
 	Double calculate(String... stringsVariables);
+
+	String toString();
 }
