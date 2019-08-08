@@ -22,6 +22,10 @@ public class Calculation {
 		return invokeCalculations(null, null, variables, null, sign);
 	}
 
+	public Double calculate(char sign, String... variables) {
+		return invokeCalculations(null, null, null, variables, sign);
+	}
+
 	private Double invokeCalculations(Double firstVariable, Double secondVariable,
 	                                  Double[] doublesVariables, String[] stringsVariables, char sign) {
 		Double result = null;

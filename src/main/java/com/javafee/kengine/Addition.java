@@ -1,9 +1,9 @@
 package com.javafee.kengine;
 
 
-import com.google.common.util.concurrent.AtomicDouble;
-
 import java.util.Arrays;
+
+import com.google.common.util.concurrent.AtomicDouble;
 
 
 public class Addition implements GenericCalculation {
@@ -26,7 +26,7 @@ public class Addition implements GenericCalculation {
 	}
 
 	@Override
-    public String toString() {
-	    return "";
-    }
+	public String toString() {
+		return "";
+	}
 }
