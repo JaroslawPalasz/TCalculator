@@ -1,0 +1,23 @@
+        Calculation example = new Addition();
+		System.out.println(example.calculate(2.0, 2.0));
+
+		Scanner input = new Scanner(System.in);
+		System.out.print("Podaj pierwsza zmienna: ");
+		String firstInput = input.next();
+
+		System.out.print("Podaj druga zmienna: ");
+		String secondInput = input.next();
+
+		System.out.print("Podaj kolejną zmienna: ");
+		String thirdInput = input.next();
+
+		com.javafee.kengine.Calculation calculation = new com.javafee.kengine.Calculation();
+		///System.out.println(calculation.calculate('-', Double.valueOf(firstInput), Double.valueOf(secondInput), Double.valueOf(thirdInput)));
+		//System.out.println(calculation.calculate('*', Double.valueOf(firstInput), Double.valueOf(secondInput), Double.valueOf(thirdInput)));
+		//System.out.println(calculation.calculate('/', Double.valueOf(firstInput), Double.valueOf(secondInput), Double.valueOf(thirdInput)));
+		//System.out.println(calculation.calculate('+', Double.valueOf(firstInput), Double.valueOf(secondInput), Double.valueOf(thirdInput)));
+		//		System.out.println(calculation.calculate(2.0, 4.0, '*'));
+		//		System.out.println(calculation.calculate(2.0, 0.0, '/'));
+
+		String[] variables = new String[]{"1.0", "2.0", "3.0"};
+		System.out.println(calculation.calculate('/', variables));
